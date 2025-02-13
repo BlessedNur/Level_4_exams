@@ -109,7 +109,6 @@ export default function LoginPage() {
               >
                 <option value="owner">Restaurant Owner</option>
                 <option value="staff">Staff Member</option>
-                <option value="customer">Customer</option>
               </select>
             </motion.div>
 
