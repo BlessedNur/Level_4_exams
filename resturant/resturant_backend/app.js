@@ -15,7 +15,7 @@ const authRoutes = require("./src/routes/auth.routes");
 app.use(express.json());
 
 mongoose
-  .connect("mongodb://localhost/resturant_app")
+  .connect("mongodb+srv://blessednur67:HOODQUAN67@cluster0.wftw5hq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => {
     app.use(cors());
     // routes
